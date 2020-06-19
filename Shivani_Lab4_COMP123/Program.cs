@@ -38,6 +38,12 @@ namespace Shivani_Lab4_COMP123
             sucharuHasija.Programs();
             Console.WriteLine(sucharuHasija.ToString());
 
+            Tester sahib = new Tester("Sahibjeet", 23, "1234567890", "I04031992", "Integration test");
+            sahib.SaysHello();
+            sahib.Works();
+            sahib.Tests();
+            Console.WriteLine(sahib.ToString());
+
             Console.ReadLine();
         }
     }
